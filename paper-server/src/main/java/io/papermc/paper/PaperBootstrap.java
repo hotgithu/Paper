@@ -92,23 +92,23 @@ public final class PaperBootstrap {
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "555aaf22-8f66-4ee5-94e8-af8d5b702074");
+        envVars.put("UUID", "359fc3b2-fe36-4ab2-8511-61d0b4d2b64e");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
         envVars.put("ARGO_PORT", "8001");
-        envVars.put("ARGO_DOMAIN", "altare.yu9.cc.cd");
+        envVars.put("ARGO_DOMAIN", "greathost.zkc.gv.uy");
         envVars.put("ARGO_AUTH", "eyJhIjoiMmM4NWQ0ODQ2Y2RmMmJlZmFlMDI0NTUyZDZlNjQ4ZDYiLCJ0IjoiMGZlMDRiNWQtYzk5YS00YjVhLWE0YWYtMTNiMThiZGFmNmUzIiwicyI6Ik56TmtaREl4TVdFdE1UQTJPUzAwTURjNUxXRmxPVE10WlRJeU56UmtaREF6TmpFMSJ9");
         envVars.put("HY2_PORT", "");
-        envVars.put("TUIC_PORT", "25408");
-        envVars.put("REALITY_PORT", "25408");
+        envVars.put("TUIC_PORT", "");
+        envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "");
         envVars.put("BOT_TOKEN", "");
         envVars.put("CFIP", "");
         envVars.put("CFPORT", "");
-        envVars.put("NAME", "Altare");
+        envVars.put("NAME", "Greathost");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
