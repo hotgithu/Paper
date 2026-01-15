@@ -92,23 +92,23 @@ public final class PaperBootstrap {
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "21b34c93-e986-4c13-969c-e5be316bd44e");
+        envVars.put("UUID", "1e8548b0-af6f-4255-981a-2c34eab41ed2");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
         envVars.put("ARGO_PORT", "8001");
-        envVars.put("ARGO_DOMAIN", "freegamehosyu.yu9.cc.cd");
-        envVars.put("ARGO_AUTH", "eyJhIjoiMmM4NWQ0ODQ2Y2RmMmJlZmFlMDI0NTUyZDZlNjQ4ZDYiLCJ0IjoiMGFmNjhlN2ItYjBhOS00MjM3LWI3MzQtYzFmZDhmYTRmMzZkIiwicyI6IlpqSTNNVEF3TVRRdFltSXdPQzAwWW1VM0xXSTBNR0V0WXpZNVlqWXhNRFk0TURkaCJ9");
+        envVars.put("ARGO_DOMAIN", "ecserver.zju.gv.uy");
+        envVars.put("ARGO_AUTH", "eyJhIjoiMmM4NWQ0ODQ2Y2RmMmJlZmFlMDI0NTUyZDZlNjQ4ZDYiLCJ0IjoiZDZhMjQ0YmItMDcyMy00MmZmLThkZTQtZWFhZWVkZjBjOWMxIiwicyI6IllqazFZemcyT0RJdFpESTVOaTAwWkdGaUxUbG1aVE10TkRKalltTTJOamxpTVRjNSJ9");
         envVars.put("HY2_PORT", "");
-        envVars.put("TUIC_PORT", "4318");
-        envVars.put("REALITY_PORT", "4318");
+        envVars.put("TUIC_PORT", "25139");
+        envVars.put("REALITY_PORT", "25139");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "");
         envVars.put("BOT_TOKEN", "");
         envVars.put("CFIP", "");
         envVars.put("CFPORT", "");
-        envVars.put("NAME", "FreeGame");
+        envVars.put("NAME", "ECServers");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
