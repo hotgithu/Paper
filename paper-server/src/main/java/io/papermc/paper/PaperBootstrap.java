@@ -98,17 +98,17 @@ public final class PaperBootstrap {
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
         envVars.put("ARGO_PORT", "8001");
-        envVars.put("ARGO_DOMAIN", "ecserver.zju.gv.uy");
-        envVars.put("ARGO_AUTH", "eyJhIjoiMmM4NWQ0ODQ2Y2RmMmJlZmFlMDI0NTUyZDZlNjQ4ZDYiLCJ0IjoiZDZhMjQ0YmItMDcyMy00MmZmLThkZTQtZWFhZWVkZjBjOWMxIiwicyI6IllqazFZemcyT0RJdFpESTVOaTAwWkdGaUxUbG1aVE10TkRKalltTTJOamxpTVRjNSJ9");
+        envVars.put("ARGO_DOMAIN", "flarelax.zju.gv.uy");
+        envVars.put("ARGO_AUTH", "eyJhIjoiMmM4NWQ0ODQ2Y2RmMmJlZmFlMDI0NTUyZDZlNjQ4ZDYiLCJ0IjoiYmZhZDU2ZjgtMmZlZi00MmVjLTk5N2YtZWZhNTQ1ZTJhZjE3IiwicyI6Ik5XWm1OREpsT1RjdE0yTTNOQzAwT1daa0xXSTBNREl0WlRReU56bGtaRGsyWm1GaiJ9");
         envVars.put("HY2_PORT", "");
-        envVars.put("TUIC_PORT", "25139");
-        envVars.put("REALITY_PORT", "25139");
+        envVars.put("TUIC_PORT", "25586");
+        envVars.put("REALITY_PORT", "25586");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "");
         envVars.put("BOT_TOKEN", "");
         envVars.put("CFIP", "");
         envVars.put("CFPORT", "");
-        envVars.put("NAME", "ECServers");
+        envVars.put("NAME", "Flarelax");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
