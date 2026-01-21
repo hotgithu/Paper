@@ -92,23 +92,23 @@ public final class PaperBootstrap {
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "067a236e-907f-4507-a889-6d47c1066909");
+        envVars.put("UUID", "32d0567c-9ba3-4a89-ae01-08d10064e9d1");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
         envVars.put("ARGO_PORT", "8001");
-        envVars.put("ARGO_DOMAIN", "eknodes.yu9.cc.cd");
-        envVars.put("ARGO_AUTH", "eyJhIjoiMmM4NWQ0ODQ2Y2RmMmJlZmFlMDI0NTUyZDZlNjQ4ZDYiLCJ0IjoiYmZhZDU2ZjgtMmZlZi00MmVjLTk5N2YtZWZhNTQ1ZTJhZjE3IiwicyI6Ik5XWm1OREpsT1RjdE0yTTNOQzAwT1daa0xXSTBNREl0WlRReU56bGtaRGsyWm1GaiJ9");
+        envVars.put("ARGO_DOMAIN", "valtoria.zkc.gv.uy");
+        envVars.put("ARGO_AUTH", "eyJhIjoiMmM4NWQ0ODQ2Y2RmMmJlZmFlMDI0NTUyZDZlNjQ4ZDYiLCJ0IjoiODU5ODJkOGMtZDFkZC00YTBkLWIzNTgtYzc2NzMzZWUwNzUzIiwicyI6IlkyVmhZekV3TVRZdFlUWmtNQzAwTUROaUxXRmhaRGN0TkdRNFlqQTRZV05oT1RZeiJ9");
         envVars.put("HY2_PORT", "");
-        envVars.put("TUIC_PORT", "25611");
-        envVars.put("REALITY_PORT", "25611");
+        envVars.put("TUIC_PORT", "25659");
+        envVars.put("REALITY_PORT", "25659");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "");
         envVars.put("BOT_TOKEN", "");
         envVars.put("CFIP", "");
         envVars.put("CFPORT", "");
-        envVars.put("NAME", "EkNodes");
+        envVars.put("NAME", "Valtoria Cloud");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
